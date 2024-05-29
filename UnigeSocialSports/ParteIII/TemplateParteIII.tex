@@ -1,0 +1,197 @@
+\documentclass[a4paper]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{todonotes}
+\usepackage{geometry}
+\geometry{a4paper, top=3cm, bottom=3cm, left=3.5cm, right=3.5cm} % heightrounded, bindingoffset=5mm}
+
+\title{Progetto Basi di Dati 2023-24 \\
+“UNIGE SOCIAL SPORT” \\
+Parte III}
+\author{[Numero Gruppo]
+\\
+\and [Nome, Cognome e Matricola dei componenti]}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Progettazione Fisica\\}
+
+\subsection{CARICO DI LAVORO\\}
+
+\subsubsection{Q1 - QUERY CON SINGOLA SELEZIONE E NESSUN JOIN\\}
+
+\paragraph*{LINGUAGGIO NATURALE \\} 
+
+
+\todo[inline]{Riportare in questa sezione l’interrogazione del carico di lavoro con singola selezione e nessun join, in linguaggio naturale}
+
+\paragraph*{SQL \\}
+
+\todo[inline]{Riportare in questa sezione l’interrogazione del carico di lavoro con singola selezione e nessun join, in SQL}
+
+
+
+\subsubsection{Q2 - QUERY CON CONDIZIONE DI SELEZIONE COMPLESSA E NESSUN JOIN\\}
+
+\paragraph*{LINGUAGGIO NATURALE\\}
+
+\todo[inline]{Riportare in questa sezione l’interrogazione del carico di lavoro con condizione di selezione complessa e nessun join, in linguaggio naturale}
+
+\paragraph*{SQL \\}
+
+\todo[inline]{Riportare in questa sezione l’interrogazione del carico di lavoro con condizione di selezione complessae nessun join, in SQL}
+
+
+\subsubsection{Q3 - QUERY CON ALMENO UN JOIN E ALMENO UNA CONDIZIONE DI SELEZIONE\\ }
+
+\paragraph*{LINGUAGGIO NATURALE\\}
+
+\todo[inline]{Riportare in questa sezione l’interrogazione del carico di lavoro  con almeno un join e almeno una condizione di selezione, in linguaggio naturale}
+
+\paragraph*{SQL \\}
+
+\todo[inline]{Riportare in questa sezione l’interrogazione del carico di lavoro con almeno un join e almeno una condizione di selezione, in SQL}
+
+
+\subsection{1D-PROGETTO FISICO\\}
+
+\todo[inline]{Riportare nella seguente tabella l’elenco degli indici che si intendono creare per le interrogazioni contenute nel carico di lavoro, specificando le informazioni indicate nella prima riga, motivando opportunamente, in modo sintetico, le scelte effettuate}
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|c|p{2cm}|p{2cm}|p{5cm}|}
+\hline
+{\bf Id query} & {\bf Relazione} & \parbox{2cm}{\bf Chiave di ricerca} & \parbox{2cm}{\bf Tipo (ordinato/hash, clusterizzato/non clusterizzato)} & \parbox{5cm}{\bf Motivazione} \\
+\hline
+& & & & \\
+\hline
+\end{tabular}
+\end{footnotesize}
+\end{center}
+
+\subsection{1G-ANALISI PIANI DI ESECUZIONE SCELTI DAL SISTEMA\\}
+
+
+\subsubsection{Q1 - QUERY CON SINGOLA SELEZIONE E NESSUN JOIN\\}
+
+\paragraph*{PIANO DI ESECUZIONE SCELTO DAL SISTEMA PRIMA DELLA CREAZIONE DELLO SCHEMA FISICO\\}
+
+\todo[inline]{Riportare in questa sezione il piano di esecuzione scelto da PostgreSQL prima della creazione dello schema fi-sico, in formato testuale}
+
+\paragraph*{PIANO DI ESECUZIONE SCELTO DAL SISTEMA DOPO DELLA CREAZIONE DELLO SCHEMA FISICO\\}
+
+\todo[inline]{Riportare in questa sezione il piano di esecuzione scelto da PostgreSQL dopo della creazione dello schema fisi-co, in formato testuale}
+
+\paragraph*{CONFRONTO TRA I DUE PIANI\\}
+
+\todo[inline]{Riportare nella seguente tabella i tempi di esecuzione per i piani ottenuti prima e dopo la creazione dello schema fisico, giustificando i piani e i tempi ottenuti}
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|p{3cm}|p{3cm}|p{7cm}|}
+\hline
+\parbox{3cm}{\bf Tempo esecuzione PRIMA} & \parbox{3cm}{\bf Tempo esecuzione DOPO} &  \parbox{7cm}{\bf Motivazione} \\
+\hline
+& &  \\
+\hline
+\end{tabular}
+\end{footnotesize}
+\end{center}
+
+\subsubsection{Q2 - QUERY CON CONDIZIONE DI SELEZIONE COMPLESSA E NESSUN JOIN\\}
+
+\paragraph*{PIANO DI ESECUZIONE SCELTO DAL SISTEMA PRIMA DELLA CREAZIONE DELLO SCHEMA FISICO\\}
+
+\todo[inline]{Riportare in questa sezione il piano di esecuzione scelto da PostgreSQL prima della creazione dello schema fi-sico, in formato testuale}
+
+\paragraph*{PIANO DI ESECUZIONE SCELTO DAL SISTEMA DOPO DELLA CREAZIONE DELLO SCHEMA FISICO\\}
+
+\todo[inline]{Riportare in questa sezione il piano di esecuzione scelto da PostgreSQL dopo della creazione dello schema fisi-co, in formato testuale}
+
+\paragraph*{CONFRONTO TRA I DUE PIANI\\}
+
+\todo[inline]{Riportare nella seguente tabella i tempi di esecuzione per i piani ottenuti prima e dopo la creazione dello schema fisico, giustificando i piani e i tempi ottenuti}
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|p{3cm}|p{3cm}|p{7cm}|}
+\hline
+\parbox{3cm}{\bf Tempo esecuzione PRIMA} & \parbox{3cm}{\bf Tempo esecuzione DOPO} &  \parbox{7cm}{\bf Motivazione} \\
+\hline
+& &  \\
+\hline
+\end{tabular}
+\end{footnotesize}
+\end{center}
+
+
+
+\subsubsection{Q3 - QUERY CON ALMENO UN JOIN E ALMENO UNA CONDIZIONE DI SELEZIONE \\}
+
+\paragraph*{PIANO DI ESECUZIONE SCELTO DAL SISTEMA PRIMA DELLA CREAZIONE DELLO SCHEMA FISICO\\}
+
+\todo[inline]{Riportare in questa sezione il piano di esecuzione scelto da PostgreSQL prima della creazione dello schema fi-sico, in formato testuale}
+
+\paragraph*{PIANO DI ESECUZIONE SCELTO DAL SISTEMA DOPO DELLA CREAZIONE DELLO SCHEMA FISICO\\}
+
+\todo[inline]{Riportare in questa sezione il piano di esecuzione scelto da PostgreSQL dopo della creazione dello schema fisi-co, in formato testuale}
+
+\paragraph*{CONFRONTO TRA I DUE PIANI\\}
+
+\todo[inline]{Riportare nella seguente tabella i tempi di esecuzione per i piani ottenuti prima e dopo la creazione dello schema fisico, giustificando i piani e i tempi ottenuti}
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|p{3cm}|p{3cm}|p{7cm}|}
+\hline
+\parbox{3cm}{\bf Tempo esecuzione PRIMA} & \parbox{3cm}{\bf Tempo esecuzione DOPO} &  \parbox{7cm}{\bf Motivazione} \\
+\hline
+& &  \\
+\hline
+\end{tabular}
+\end{footnotesize}
+\end{center}
+
+
+
+
+\section{CONTROLLO DELL’ACCESSO\\}
+
+\subsection{GERARCHIA TRA I RUOLI \\}
+
+\subsubsection{GERARCHIA\\}
+
+\todo[inline]{Riportare in questa sezione la gerarchia che si intende definire tra i quattro ruoli}
+
+\subsubsection{MOTIVAZIONE GERARCHIA}
+
+\todo[inline]{Riportare in questa sezione una motivazione per la gerarchia proposta}
+
+
+\subsection{ASSEGNAZIONE PRIVILEGI SPECIFICI AI RUOLI}
+
+\todo[inline]{Riportare nella prima colonna della seguente tabella le relazioni considerate e in ciascuna altra cella (i,j) i privilegi specifici (quindi non acquisiti tramite la gerarchia) che si intendono assegnare al ruolo j sulla tabella }
+
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|p{2.7cm}|p{2.7cm}|p{2.7cm}|p{2.7cm}|}
+\hline
+{\bf Relazione} & \parbox{2.7cm}{\bf Amministratore di UniGE social sport} & \parbox{2.7cm}{\bf Utente premium} &  \parbox{2.7cm}{\bf Gestore impianto} & \parbox{2.7cm}{\bf Utente semplice} \\
+\hline
+& &  & & \\
+\hline
+\end{tabular}
+\end{footnotesize}
+\end{center}
+
+
+\end{document}
